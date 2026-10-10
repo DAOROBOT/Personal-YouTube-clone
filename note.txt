@@ -1,0 +1,153 @@
+HTML Attribute: <a href="....."> Link to youtube </a>: Attribute: href
+HTML Attribute modifies how an element behaves.
+href: Attribute name
+".....": Attribute value
+The name tells us what we're modifying
+The value tells us what we are modifying it to
+Possible to have multiple attributes on an element
+
+
+HTML Element: button
+HTML Syntax: <button> ... </button>
+HTML Tag: <button>: opening tag,  </button>: closing tag
+
+Extra spaces are ignored (in HTML)
+Extra new lines are also ignored (in HTML)
+
+CSS (Cascading Style Sheets): Change the appearance of HTML element.
+
+CSS syntax
+<style>
+  button {
+	background-color: red;
+  }
+</style>
+
+-> button: CSS Selector
+CSS Selector -> which HTML elements we're targeting
+background-color: CSS Property
+CSS Property -> Tells computer what we are changing
+red: CSS Value
+CSS Value: Tells a computer what we're changing the property to.
+
+General Technique:
+1. Create button with HTML
+2. Style element with CSS
+
+Space around an element = margin
+
+Some common CSS Property:
+1. background-color
+2. border-radius
+3. border-color
+4. border-style
+5. height
+6. width
+7. color
+8. cursor
+9. border-width
+10. margin-left, margin-right, margin-top, margin-bottom
+11. font-weight
+12. font-size
+13. vertical-align
+14. font-family
+15. font-style
+16. text-align
+17. line-height
+18. padding-left, padding-right, padding-top, padding-bottom
+19. text-decoration
+20. object-fit
+21. object-position
+22. box-shadow
+23. Grid: grid-template-columns:
+24. Grid: column-gap:
+25. Grid: row-gap:
+26. display: grid
+27. display: flex
+28. flex-direction: row;
+29. justify-content: start, end, center, space-between
+30. align-items: stretch, start, end, center
+31. flex-shrink: 0; /* don't shrink */
+32. position: static; /* default position, always appear at the back*/
+    position: fixed;
+	top: 10px /* specifies how far away our element is from the top of the window */
+	left: 20px /* specifies how much space between our element and the left edge of the window */
+	If set the top: 10px and the bottom: 100px or the left: 10px and the right: 20px at the same time, the element will stretch to meet both requirement. 
+    poistion: relative;
+33. z-index:  /* determines which elements appear in front and which elements appear behnind. Default value is 0.*/
+/* Higher value of z-index appear in front. */
+
+HTML: nesting = element inside an element.
+
+.subscribe-button:hover{
+}
+
+:hover -> pseudo class.
+
+CSS Box Model:
+	Margin: How far it is away from other elements.
+	Padding: How much space an element take up
+	Border: Width of the border.
+
+HTML entity -> special character
+
+<p> by default, come with margin at the top and at the bottom.
+
+CSS Specificity: The selector that's more specific, has higher priority
+
+<html> element represents entire web page.
+
+<body> = contains all elements that are visible
+<head> = contains elements that are not visible.
+
+<link> is a void element because this element doesn't need a closing tag.
+
+display property:
+	1. block element = takes up the entire line in their container, not necessarily the entire page
+	2. inline-block element = only takes up as much space as needed.
+	3. inline element = appear within a line of text
+
+<div> = division
+<div> is just a box, container
+<div> by default is a block element.
+Can put any other elements and the div itself inside a <div>
+
+Grid
+
+<div style="
+	display: grid;
+	grid-template-columns: 100px 100px 200px; /* first and second column have 100px width, third column has 200px */ 
+">
+	<div style="background-color: lightblue;">
+		div1
+	</div>
+
+	<div style="background-color: lightpink;">
+		div2
+	</div>
+
+	<div style="background-color: lightblue;">
+		div3
+	</div>
+
+	<div style="background-color: lightpink;">
+		div4
+	</div>
+
+</div>
+
+When a div is inside a grid, the div is placed into a grid. So, instead of taking up the entire line in the webpage, the div takes up the entire column only.
+
+When we have more divs than a number of columns, for example, 3 columns but for divs, the fourth div will start a new 
+
+fr is free space.
+
+A column is set to 1fr, will take up the entire free space left.
+
+Flexbox is similar to CSS Grid, but it's more flexible.
+
+Grid = rigid layout
+Flexbox = flexible layout
+
+position: fixed; /* placed in the browser window */
+position: absolute; /* placed on the page */

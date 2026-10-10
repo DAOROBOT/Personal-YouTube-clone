@@ -1,0 +1,59 @@
+.title {
+  font-family: Arial;
+  font-size: 35px;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+
+.pickup-textfield {
+  border: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 12px;
+  padding-right: 180px;
+  display: block;
+  background-color: rgb(240, 240, 240); /* Simon's code */
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+.destination-textfield {
+  border: none;
+  display: block;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 12px;
+  padding-right: 180px;
+  background-color: rgba(96, 96, 96, 0.15); /* My code */
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+button {
+  margin-top: 25px;
+}
+
+.request-now-button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 0px;
+  cursor: pointer;
+  
+}
+
+.schedule-button {
+  margin-left: 10px;
+  background-color: rgba(96, 96, 96, 0.15);
+  color: black;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  cursor: pointer;
+}
